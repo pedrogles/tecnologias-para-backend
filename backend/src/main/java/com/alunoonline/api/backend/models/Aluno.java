@@ -14,7 +14,6 @@ import java.io.Serializable;
 @NoArgsConstructor // Cria construtor sem argumentos.
 @AllArgsConstructor // Cria construtor com argumentos.
 @Entity // Cria uma entidade.
-
 public class Aluno implements Serializable { // implementação para o banco de dados.
 
     @Id // Primary key.
